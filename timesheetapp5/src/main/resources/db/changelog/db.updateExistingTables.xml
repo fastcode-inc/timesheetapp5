@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<databaseChangeLog
+  xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+         
+		  <changeSet author="fastCode, Inc" id="000000-000100">
+	    <addColumn tableName="status">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      	<constraints nullable="false"/>
+				</column>
+	   	</addColumn>
+	 </changeSet>
+	  <changeSet author="fastCode, Inc" id="000000-000101">
+	    <addColumn tableName="userspreference">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      	<constraints nullable="false"/>
+				</column>
+	   	</addColumn>
+	 </changeSet>
+	  <changeSet author="fastCode, Inc" id="000000-000102">
+	    <addColumn tableName="task">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      	<constraints nullable="false"/>
+				</column>
+	   	</addColumn>
+	 </changeSet>
+	  <changeSet author="fastCode, Inc" id="000000-000103">
+	    <addColumn tableName="jwt_entity">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      	<constraints nullable="false"/>
+				</column>
+	   	</addColumn>
+	 </changeSet>
+	  <changeSet author="fastCode, Inc" id="000000-000104">
+	    <addColumn tableName="customer">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      	<constraints nullable="false"/>
+				</column>
+	   	</addColumn>
+	 </changeSet>
+	  <changeSet author="fastCode, Inc" id="000000-000105">
+	    <addColumn tableName="timesheet">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      	<constraints nullable="false"/>
+				</column>
+	   	</addColumn>
+	 </changeSet>
+	  <changeSet author="fastCode, Inc" id="000000-000106">
+	    <addColumn tableName="rolepermission">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      	<constraints nullable="false"/>
+				</column>
+	   	</addColumn>
+	 </changeSet>
+	  <changeSet author="fastCode, Inc" id="000000-000107">
+	    <addColumn tableName="users">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      	<constraints nullable="false"/>
+				</column>
+	   	</addColumn>
+	 </changeSet>
+	  <changeSet author="fastCode, Inc" id="000000-000108">
+	    <addColumn tableName="role">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      	<constraints nullable="false"/>
+				</column>
+	   	</addColumn>
+	 </changeSet>
+	  <changeSet author="fastCode, Inc" id="000000-000109">
+	    <addColumn tableName="tokenverification">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      	<constraints nullable="false"/>
+				</column>
+	   	</addColumn>
+	 </changeSet>
+	  <changeSet author="fastCode, Inc" id="000000-000110">
+	    <addColumn tableName="project">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      	<constraints nullable="false"/>
+				</column>
+	   	</addColumn>
+	 </changeSet>
+	  <changeSet author="fastCode, Inc" id="000000-000111">
+	    <addColumn tableName="usertask">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      	<constraints nullable="false"/>
+				</column>
+	   	</addColumn>
+	 </changeSet>
+	  <changeSet author="fastCode, Inc" id="000000-000112">
+	    <addColumn tableName="permission">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      	<constraints nullable="false"/>
+				</column>
+	   	</addColumn>
+	 </changeSet>
+	  <changeSet author="fastCode, Inc" id="000000-000113">
+	    <addColumn tableName="usersrole">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      	<constraints nullable="false"/>
+				</column>
+	   	</addColumn>
+	 </changeSet>
+	  <changeSet author="fastCode, Inc" id="000000-000114">
+	    <addColumn tableName="timesheetstatus">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      	<constraints nullable="false"/>
+				</column>
+	   	</addColumn>
+	 </changeSet>
+	  <changeSet author="fastCode, Inc" id="000000-000115">
+	    <addColumn tableName="timesheetdetails">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      	<constraints nullable="false"/>
+				</column>
+	   	</addColumn>
+	 </changeSet>
+	  <changeSet author="fastCode, Inc" id="000000-000116">
+	    <addColumn tableName="userspermission">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      	<constraints nullable="false"/>
+				</column>
+	   	</addColumn>
+	 </changeSet>
+         
+</databaseChangeLog>
